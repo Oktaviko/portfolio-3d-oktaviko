@@ -1,8 +1,9 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import Portfolio3D from './components/Portofolio3D'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import Portfolio3D from "./components/Portofolio3D";
+import Home from "./components/common/Background3D";
+import viteLogo from "/vite.svg";
+import "./App.css";
 
 // function App() {
 //   const [count, setCount] = useState(0)
@@ -37,6 +38,6 @@ function App() {
     <div className="App">
       <Portfolio3D />
     </div>
-  )
+  );
 }
-export default App
+export default App;
