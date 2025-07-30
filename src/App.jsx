@@ -2,7 +2,9 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import Portfolio3D from "./components/Portofolio3D";
 import Home from "./components/common/Background3D";
+import Layout from './components/layout/Layout';
 import viteLogo from "/vite.svg";
+import './styles/globals.css';
 import "./App.css";
 
 // function App() {
@@ -36,7 +38,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Portfolio3D />
+      <Layout  />
     </div>
   );
 }

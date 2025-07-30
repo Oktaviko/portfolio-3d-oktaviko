@@ -1,0 +1,132 @@
+/* src/styles/components/Contact.css */
+.contact-section {
+  min-height: 100vh;
+  padding: 5rem 0;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.contact-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.contact-content {
+  max-width: 64rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.contact-description {
+  font-size: 1.25rem;
+  color: #9ca3af;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+}
+
+.contact-cards {
+  display: grid;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-card {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+  padding: 2rem;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  transform: scale(1);
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.3);
+}
+
+.contact-card.email {
+  background: linear-gradient(135deg, rgba(59, 130, 246, 0.15), rgba(139, 92, 246, 0.15));
+}
+
+.contact-card.github {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(59, 130, 246, 0.15));
+}
+
+.contact-card.linkedin {
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.15), rgba(236, 72, 153, 0.15));
+}
+
+.contact-icon {
+  margin: 0 auto 1rem;
+  display: block;
+}
+
+.contact-card.email .contact-icon {
+  color: #60a5fa;
+}
+
+.contact-card.github .contact-icon {
+  color: #10b981;
+}
+
+.contact-card.linkedin .contact-icon {
+  color: #8b5cf6;
+}
+
+.contact-title {
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1.125rem;
+}
+
+.contact-info {
+  color: #9ca3af;
+  font-size: 0.875rem;
+}
+
+.download-cv-btn {
+  padding: 1rem 3rem;
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+  border-radius: 9999px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4);
+  font-size: 1.125rem;
+}
+
+.download-cv-btn:hover {
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  transform: scale(1.05);
+  box-shadow: 0 20px 40px -10px rgba(59, 130, 246, 0.6);
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 3rem;
+  }
+  
+  .contact-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-title {
+    font-size: 3.5rem;
+  }
+}
