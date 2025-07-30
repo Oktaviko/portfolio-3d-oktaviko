@@ -1,6 +1,6 @@
 // src/components/sections/Contact.jsx
 import React from "react";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin, Instagram } from "lucide-react";
 import { PERSONAL_INFO } from "../../utils/constants";
 import "../../styles/components/Contact.css";
 

@@ -14,10 +14,11 @@
 
 /* Hero Section */
 .hero-section {
-  position: relative;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  padding-top: 100px; /* Tambahan ini penting */
   justify-content: center;
   text-align: center;
   z-index: 10;
@@ -33,6 +34,7 @@
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3),
     0 0 80px rgba(var(--neon-cyan-rgb), 0.2);
   animation: float 6s ease-in-out infinite;
+   gap: 0.75rem; 
 }
 
 .hero-title {
@@ -428,4 +430,47 @@
 
 .glow-effect:hover::before {
   opacity: 0.7;
+}
+
+.avatar-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Tombol dengan gradien */
+.btn-primary-gradient {
+  background: linear-gradient(to right, #4f46e5, #3b82f6);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary-gradient:hover {
+  transform: scale(1.05);
+  background: linear-gradient(to right, #6366f1, #60a5fa);
+}
+
+/* Tombol outline */
+.btn-secondary-outline {
+  background: transparent;
+  color: #3b82f6;
+  padding: 12px 24px;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn-secondary-outline:hover {
+  background-color: #eff6ff;
+  transform: scale(1.05);
 }

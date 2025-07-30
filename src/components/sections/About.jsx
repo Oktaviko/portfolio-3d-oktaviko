@@ -19,16 +19,26 @@ const About = () => {
 
               <p className="about-paragraph">
                 Saya adalah lulusan baru dari jurusan Teknologi Informasi yang
-                memiliki passion tinggi dalam web development. Selama masa
-                perkuliahan, saya telah mengembangkan berbagai project yang
-                menggabungkan kreativitas dengan teknologi terdepan.
+                memiliki minat besar dalam pengembangan aplikasi web dan mobile.
+                Selama masa kuliah, saya aktif membuat beberapa proyek untuk
+                melatih kemampuan saya dalam membangun aplikasi yang fungsional
+                dan menarik secara tampilan.
               </p>
 
               <p className="about-paragraph">
-                Keahlian saya meliputi frontend development dengan React,
-                backend development dengan Node.js dan Express.js, serta
-                database management. Saya selalu antusias untuk mempelajari
-                teknologi baru dan menerapkannya dalam project-project inovatif.
+                Saat ini saya masih terus belajar dan mengembangkan diri dalam
+                berbagai teknologi pengembangan software, baik di sisi frontend,
+                backend, maupun pengelolaan basis data. Beberapa teknologi yang
+                sudah saya pelajari dan gunakan dalam proyek antara lain
+                JavaScript, PHP, Flutter, serta framework-framework pendukung
+                lainnya.
+              </p>
+
+              <p className="about-paragraph">
+                Saya percaya bahwa proses belajar adalah bagian penting dari
+                perjalanan karier saya, dan saya selalu bersemangat untuk
+                mencoba hal baru, meningkatkan skill yang saya miliki, dan terus
+                berkembang menjadi developer yang lebih baik.
               </p>
 
               <div className="skills-overview">
@@ -44,7 +54,7 @@ const About = () => {
                   <Briefcase className="skill-icon backend" size={24} />
                   <h4 className="skill-title">Backend</h4>
                   <p className="skill-description">
-                    Node.js, Express.js, MongoDB
+                    Node.js, Express.js, MySQL
                   </p>
                 </div>
               </div>

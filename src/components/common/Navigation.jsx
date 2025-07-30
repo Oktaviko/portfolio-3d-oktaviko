@@ -1,6 +1,6 @@
 // src/components/common/Navigation.jsx
 import React from "react";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Instagram, Linkedin } from "lucide-react";
 import { NAVIGATION_ITEMS } from "../../utils/constants";
 import "../../styles/components/Navigation.css";
 
@@ -42,6 +42,15 @@ const Navigation = ({ currentSection, scrollToSection }) => {
               rel="noopener noreferrer"
             >
               <Linkedin size={20} />
+            </a>
+
+             <a
+              href="https://www.instagram.com/okta.viko/"
+              className="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Instagram size={20} />
             </a>
           </div>
         </div>
