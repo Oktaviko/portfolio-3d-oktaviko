@@ -6,21 +6,21 @@ import "../../styles/components/Home.css";
 
 const Home = ({ scrollToSection }) => {
   return (
-    <section id="home" className="home-section">
-      <div className="home-content">
+    <section id="home" className="hero-section">
+      <div className="hero-content">
         <div className="home-avatar">
           <div className="avatar-circle">
             <User size={60} className="avatar-icon" />
           </div>
         </div>
 
-        <h1 className="home-title">{PERSONAL_INFO.name}</h1>
+        <h1 className="hero-title">{PERSONAL_INFO.name}</h1>
 
-        <h2 className="home-subtitle">{PERSONAL_INFO.title}</h2>
+        <h2 className="hero-subtitle">{PERSONAL_INFO.title}</h2>
 
-        <p className="home-description">{PERSONAL_INFO.description}</p>
+        <p className="hero-description">{PERSONAL_INFO.description}</p>
 
-        <div className="home-actions">
+        <div className="cta-buttons">
           <button
             onClick={() => scrollToSection("projects")}
             className="btn-primary"

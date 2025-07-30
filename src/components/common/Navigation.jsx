@@ -9,7 +9,7 @@ const Navigation = ({ currentSection, scrollToSection }) => {
     <nav className="navigation">
       <div className="nav-container">
         <div className="nav-content">
-          <div className="nav-logo">Oktaviko RP</div>
+          <div className="nav-logo">Website Portofolio</div>
 
           <div className="nav-menu">
             {NAVIGATION_ITEMS.map((item) => (
@@ -26,10 +26,21 @@ const Navigation = ({ currentSection, scrollToSection }) => {
           </div>
 
           <div className="nav-social">
-            <a href="#" className="social-link">
+            <a
+              href="https://github.com/Oktaviko"
+              className="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Github size={20} />
             </a>
-            <a href="#" className="social-link">
+
+            <a
+              href="https://www.linkedin.com/in/oktaviko-rizki-pratama/"
+              className="social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Linkedin size={20} />
             </a>
           </div>
